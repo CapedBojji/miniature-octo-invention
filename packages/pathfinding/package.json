@@ -1,0 +1,25 @@
+{
+	"name": "@rbxts/pathfinding",
+	"version": "0.1.0",
+	"description": "Custom Roblox pathfinding library using roblox-ts",
+	"main": "out/init.lua",
+	"scripts": {
+		"build": "rbxts-build compile",
+		"watch": "rbxts-build watch",
+		"rojo-build": "rbxts-build build"
+	},
+	"devDependencies": {
+		"rbxts-build": "^2.4.3",
+		"roblox-ts": "^3.0.0"
+	},
+	"dependencies": {
+		"@rbxts/compiler-types": "3.0.0-types.0",
+		"@rbxts/types": "^1.0.918"
+	},
+	"rbxts-build": {
+		"rbxtscArgs": [
+			"--verbose"
+		],
+		"dev": false
+	}
+}

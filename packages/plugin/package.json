@@ -1,0 +1,15 @@
+{
+	"name": "@rbxts-pathfinding/plugin",
+	"version": "0.1.0",
+	"description": "Roblox Studio plugin for pathfinding graph visualization and editing",
+	"private": true,
+	"scripts": {
+		"build": "rbxtsc",
+		"watch": "rbxtsc --watch",
+		"rojo-build": "rojo build default.project.json --output plugin.rbxm"
+	},
+	"devDependencies": {
+		"@rbxts/types": "^1.0.918",
+		"roblox-ts": "^3.0.0"
+	}
+}

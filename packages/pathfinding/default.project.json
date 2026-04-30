@@ -1,0 +1,14 @@
+{
+	"name": "pathfinding",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"rbxts_include": {
+				"$path": "include"
+			},
+			"TS": {
+				"$path": "out"
+			}
+		}
+	}
+}
