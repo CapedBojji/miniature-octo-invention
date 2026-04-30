@@ -1,21 +1,15 @@
 {
 	"name": "@rbxts-pathfinding/plugin",
 	"version": "0.1.0",
-	"description": "Compile-time TypeScript transformer plugin for roblox-ts pathfinding",
-	"main": "out/index.js",
-	"types": "out/index.d.ts",
+	"description": "Roblox Studio plugin for pathfinding graph visualization and editing",
+	"private": true,
 	"scripts": {
-		"build": "tsc --project tsconfig.json",
-		"dev": "tsc --project tsconfig.json --watch"
+		"build": "rbxtsc",
+		"watch": "rbxtsc --watch",
+		"rojo-build": "rojo build default.project.json --output plugin.rbxm"
 	},
 	"devDependencies": {
-		"@types/node": "^25.6.0",
-		"typescript": "=5.5.3"
-	},
-	"peerDependencies": {
-		"typescript": "=5.5.3"
-	},
-	"files": [
-		"out"
-	]
+		"@rbxts/types": "^1.0.918",
+		"roblox-ts": "^3.0.0"
+	}
 }

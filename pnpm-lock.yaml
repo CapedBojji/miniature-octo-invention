@@ -21,9 +21,6 @@ importers:
         specifier: ^1.0.918
         version: 1.0.918
     devDependencies:
-      '@rbxts-pathfinding/plugin':
-        specifier: workspace:*
-        version: link:../plugin
       rbxts-build:
         specifier: ^2.4.3
         version: 2.4.3
@@ -33,12 +30,12 @@ importers:
 
   packages/plugin:
     devDependencies:
-      '@types/node':
-        specifier: ^25.6.0
-        version: 25.6.0
-      typescript:
-        specifier: '=5.5.3'
-        version: 5.5.3
+      '@rbxts/types':
+        specifier: ^1.0.918
+        version: 1.0.918
+      roblox-ts:
+        specifier: ^3.0.0
+        version: 3.0.0
 
 packages:
 
@@ -113,9 +110,6 @@ packages:
 
   '@roblox-ts/rojo-resolver@1.1.0':
     resolution: {integrity: sha512-QmvVryu1EeME+3QUoG5j/gHGJoJUaffCgZ92mhlG7cJSd1uyhgpY4CNWriZAwZJYkTlzd5Htkpn+18yDFbOFXA==}
-
-  '@types/node@25.6.0':
-    resolution: {integrity: sha512-+qIYRKdNYJwY3vRCZMdJbPLJAtGjQBudzZzdzwQYkEPQd+PJGixUL5QfvCLDaULoLv+RhT3LDkwEfKaAkgSmNQ==}
 
   ajv@8.20.0:
     resolution: {integrity: sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA==}
@@ -294,9 +288,6 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@7.19.2:
-    resolution: {integrity: sha512-qYVnV5OEm2AW8cJMCpdV20CDyaN3g0AjDlOGf1OW4iaDEx8MwdtChUp4zu4H0VP3nDRF/8RKWH+IPp9uW0YGZg==}
-
   universalify@2.0.1:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
@@ -372,10 +363,6 @@ snapshots:
     dependencies:
       ajv: 8.20.0
       fs-extra: 11.3.4
-
-  '@types/node@25.6.0':
-    dependencies:
-      undici-types: 7.19.2
 
   ajv@8.20.0:
     dependencies:
@@ -546,8 +533,6 @@ snapshots:
       is-number: 7.0.0
 
   typescript@5.5.3: {}
-
-  undici-types@7.19.2: {}
 
   universalify@2.0.1: {}
 

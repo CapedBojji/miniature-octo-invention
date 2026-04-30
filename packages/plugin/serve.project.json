@@ -1,0 +1,13 @@
+{
+	"name": "rbxts-pathfinding-plugin-serve",
+	"globIgnorePaths": ["**/package.json", "**/tsconfig.json"],
+	"tree": {
+		"$className": "DataModel",
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"PathfindingPlugin": {
+				"$path": "./default.project.json"
+			}
+		}
+	}
+}

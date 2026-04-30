@@ -9,7 +9,6 @@
 		"rojo-build": "rbxts-build build"
 	},
 	"devDependencies": {
-		"@rbxts-pathfinding/plugin": "workspace:*",
 		"rbxts-build": "^2.4.3",
 		"roblox-ts": "^3.0.0"
 	},

@@ -5,8 +5,8 @@
 	"scripts": {
 		"build": "pnpm -r run build",
 		"watch": "pnpm --filter @rbxts/pathfinding run watch",
-		"dev": "pnpm --filter @rbxts-pathfinding/plugin run dev",
-		"rojo-build": "pnpm --filter @rbxts/pathfinding run rojo-build",
+		"dev": "pnpm --filter @rbxts-pathfinding/plugin run watch",
+		"rojo-build": "pnpm -r run rojo-build",
 		"check": "biome check .",
 		"format": "biome format --write .",
 		"lint": "biome lint .",
