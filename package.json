@@ -1,0 +1,14 @@
+{
+	"name": "miniature-octo-invention",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"build": "pnpm -r run build",
+		"check": "biome check .",
+		"format": "biome format --write .",
+		"lint": "biome lint ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.4.13"
+	}
+}

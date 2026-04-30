@@ -1,0 +1,21 @@
+{
+	"name": "@rbxts-pathfinding/plugin",
+	"version": "0.1.0",
+	"description": "Compile-time TypeScript transformer plugin for roblox-ts pathfinding",
+	"main": "out/index.js",
+	"types": "out/index.d.ts",
+	"scripts": {
+		"build": "tsc --project tsconfig.json",
+		"dev": "tsc --project tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@types/node": "^25.6.0",
+		"typescript": "=5.5.3"
+	},
+	"peerDependencies": {
+		"typescript": "=5.5.3"
+	},
+	"files": [
+		"out"
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"declaration": true,
+		"downlevelIteration": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"noLib": true,
+		"outDir": "out",
+		"rootDir": "src",
+		"moduleDetection": "force",
+		"experimentalDecorators": true,
+		"strict": true,
+		"target": "ES2017",
+		"typeRoots": ["node_modules/@rbxts"],
+		"plugins": [
+			{
+				"transform": "@rbxts-pathfinding/plugin",
+				"type": "program"
+			}
+		]
+	},
+	"include": ["src"]
+}
